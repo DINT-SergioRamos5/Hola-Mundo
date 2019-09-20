@@ -8,7 +8,7 @@
         Title="Hola Mundo!!" Height="450" Width="800">
     <Grid>
         <TextBlock x:Name="SaludoTextBlock" HorizontalAlignment="Left" Margin="195,60,0,0" TextWrapping="Wrap" Text="Hola Mundo!" VerticalAlignment="Top" FontSize="72" Foreground="#FFCF2222"/>
-        <TextBlock HorizontalAlignment="Left" Height="31" Margin="195,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91" FontSize="18"><Run Text="Nombre"/><Run Text=" :"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="31" Margin="195,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="91" FontSize="18" Text="Nombre :"/>
         <TextBox x:Name="NombreTextBox" HorizontalAlignment="Left" Height="25" Margin="195,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" />
         <Button x:Name="SaludarButton" Content="Saludar" HorizontalAlignment="Left" Margin="406,192,0,0" VerticalAlignment="Top" Width="76" Height="25" Click="Button_Click"/>
         <Button Content="Limpiar" HorizontalAlignment="Left" Margin="505,192,0,0" VerticalAlignment="Top" Width="83" Height="25" Click="Button_Click_Limpiar"/>
