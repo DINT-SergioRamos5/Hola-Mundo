@@ -32,8 +32,8 @@ namespace WpfApp1
 
         private void Button_Click_Limpiar(object sender, RoutedEventArgs e)
         {
-            NombreTextBox = 
-
+            NombreTextBox.Text = " ";
+            SaludoTextBlock.Text = "Hola Mundo!";
         }
     }
 }
